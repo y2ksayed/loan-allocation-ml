@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Data & models (regenerate locally)
+data/
+models/
+*.parquet
+
+# Spark
+spark-warehouse/
+derby.log
+metastore_db/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
